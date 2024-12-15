@@ -1,0 +1,164 @@
+[
+    {
+        "label": "module",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "module",
+        "description": "module",
+        "detail": "module",
+        "documentation": {}
+    },
+    {
+        "label": "pyjokes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyjokes",
+        "description": "pyjokes",
+        "detail": "pyjokes",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "demo.app",
+        "description": "demo.app",
+        "peekOfCode": "a = int(input())\nb = int(input())\nc = a + b;\nprint(\"sum : \",c);",
+        "detail": "demo.app",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "demo.app",
+        "description": "demo.app",
+        "peekOfCode": "b = int(input())\nc = a + b;\nprint(\"sum : \",c);",
+        "detail": "demo.app",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "demo.app",
+        "description": "demo.app",
+        "peekOfCode": "c = a + b;\nprint(\"sum : \",c);",
+        "detail": "demo.app",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "demo.basic",
+        "description": "demo.basic",
+        "peekOfCode": "a = 20\nb= 11\nprint(a/b)\nprint(a//b)\nprint(a%b)",
+        "detail": "demo.basic",
+        "documentation": {}
+    },
+    {
+        "label": "Findnumber",
+        "kind": 2,
+        "importPath": "demo.binarysearch",
+        "description": "demo.binarysearch",
+        "peekOfCode": "def Findnumber(num,arr):\n    low = 0\n    high = len(arr)-1\n    while low<=high:\n        mid = (low+high)//2\n        if arr[mid]==target:\n            return mid\n        elif arr[mid]<target:\n            low = mid+1\n        else:",
+        "detail": "demo.binarysearch",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "demo.binarysearch",
+        "description": "demo.binarysearch",
+        "peekOfCode": "arr = [1, 3, 5, 7, 9, 11, 13, 15]\ntarget = int(input())\ndef Findnumber(num,arr):\n    low = 0\n    high = len(arr)-1\n    while low<=high:\n        mid = (low+high)//2\n        if arr[mid]==target:\n            return mid\n        elif arr[mid]<target:",
+        "detail": "demo.binarysearch",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "demo.binarysearch",
+        "description": "demo.binarysearch",
+        "peekOfCode": "target = int(input())\ndef Findnumber(num,arr):\n    low = 0\n    high = len(arr)-1\n    while low<=high:\n        mid = (low+high)//2\n        if arr[mid]==target:\n            return mid\n        elif arr[mid]<target:\n            low = mid+1",
+        "detail": "demo.binarysearch",
+        "documentation": {}
+    },
+    {
+        "label": "ans",
+        "kind": 5,
+        "importPath": "demo.binarysearch",
+        "description": "demo.binarysearch",
+        "peekOfCode": "ans = Findnumber(target,arr)\nprint(ans)",
+        "detail": "demo.binarysearch",
+        "documentation": {}
+    },
+    {
+        "label": "printFibSeries",
+        "kind": 2,
+        "importPath": "demo.fib_series",
+        "description": "demo.fib_series",
+        "peekOfCode": "def printFibSeries(length):\n    prev, prev2 = 1, 0\n    for _ in range(length):\n        print(prev, end=\" \")\n        next_val = prev + prev2\n        prev2 = prev\n        prev = next_val\n# Get input from the user\nlen = int(input(\"Length of series: \"))\nprintFibSeries(len)",
+        "detail": "demo.fib_series",
+        "documentation": {}
+    },
+    {
+        "label": "len",
+        "kind": 5,
+        "importPath": "demo.fib_series",
+        "description": "demo.fib_series",
+        "peekOfCode": "len = int(input(\"Length of series: \"))\nprintFibSeries(len)\nprint(\"\\n\")",
+        "detail": "demo.fib_series",
+        "documentation": {}
+    },
+    {
+        "label": "checkPalindrome",
+        "kind": 2,
+        "importPath": "demo.forloop",
+        "description": "demo.forloop",
+        "peekOfCode": "def checkPalindrome(string):\n    for i in range(length // 2):\n        if string[i] != string[length - i - 1]:\n            print(\"Not a palindrome\")  \n            return\n    print(\"Palindrome string\")\ncheckPalindrome(str1)",
+        "detail": "demo.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "str1",
+        "kind": 5,
+        "importPath": "demo.forloop",
+        "description": "demo.forloop",
+        "peekOfCode": "str1 = input(\"Enter the string: \")\nlength = len(str1)\ndef checkPalindrome(string):\n    for i in range(length // 2):\n        if string[i] != string[length - i - 1]:\n            print(\"Not a palindrome\")  \n            return\n    print(\"Palindrome string\")\ncheckPalindrome(str1)",
+        "detail": "demo.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "demo.forloop",
+        "description": "demo.forloop",
+        "peekOfCode": "length = len(str1)\ndef checkPalindrome(string):\n    for i in range(length // 2):\n        if string[i] != string[length - i - 1]:\n            print(\"Not a palindrome\")  \n            return\n    print(\"Palindrome string\")\ncheckPalindrome(str1)",
+        "detail": "demo.forloop",
+        "documentation": {}
+    },
+    {
+        "label": "checkEven",
+        "kind": 2,
+        "importPath": "demo.odd_even",
+        "description": "demo.odd_even",
+        "peekOfCode": "def checkEven(number) : \n    if num%2==0:\n        print(\"even\")\n    else:\n        print(\"odd\")\ncheckEven(num)",
+        "detail": "demo.odd_even",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "demo.odd_even",
+        "description": "demo.odd_even",
+        "peekOfCode": "num = int(input(\"number: \"))\ndef checkEven(number) : \n    if num%2==0:\n        print(\"even\")\n    else:\n        print(\"odd\")\ncheckEven(num)",
+        "detail": "demo.odd_even",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "demo.while",
+        "description": "demo.while",
+        "peekOfCode": "i = int(input())\nwhile i:\n    print(i)\n    i-=1",
+        "detail": "demo.while",
+        "documentation": {}
+    }
+]
